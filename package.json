@@ -1,0 +1,23 @@
+{
+  "name": "fbeta-components",
+  "version": "4.0.0",
+  "description": "React components",
+  "main": "index.cjs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fbeta-helper/components.git"
+  },
+  "keywords": [
+    "React",
+    "components"
+  ],
+  "author": "tungduy <tungduy.dev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fbeta-helper/components/issues"
+  },
+  "homepage": "https://github.com/fbeta-helper/components#readme"
+}
