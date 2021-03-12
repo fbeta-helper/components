@@ -3,6 +3,9 @@
   "version": "4.0.0",
   "description": "React components",
   "main": "index.cjs.js",
+  "module": "index.esm.js",
+  "types": "types/index.d.ts",
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
