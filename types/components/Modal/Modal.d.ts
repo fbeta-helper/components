@@ -1,0 +1,30 @@
+import React, { CSSProperties, FC } from 'react';
+declare type TVariant = 'small' | 'medium' | 'large';
+declare type TState = 'warning' | 'error' | 'primary';
+export interface IModal {
+    visible?: boolean;
+    cancelText?: string;
+    okText?: string;
+    cancelButton?: React.ReactNode;
+    okButton?: React.ReactNode;
+    closeButton?: boolean | React.ReactNode;
+    centered?: boolean;
+    zIndex?: number;
+    onCancel?: () => void;
+    onOk?: () => void;
+    variant?: TVariant;
+    header?: string | React.ReactNode;
+    footer?: string | React.ReactNode;
+    modalRender?: React.ReactNode;
+    children?: React.ReactNode;
+    width?: number;
+    height?: number;
+    icon?: React.ReactNode;
+    className?: string;
+    style?: CSSProperties;
+    state?: TState;
+    clickOutSide?: boolean;
+    isStatic?: boolean;
+}
+declare const Modal: FC<IModal>;
+export default Modal;
