@@ -1,10 +1,10 @@
 {
   "name": "fbeta-components",
-  "version": "4.0.6",
+  "version": "4.0.7",
   "description": "React components",
-  "main": "index.cjs.js",
-  "module": "index.esm.js",
-  "types": "types/index.d.ts",
+  "main": "components/index.cjs.js",
+  "module": "components/index.esm.js",
+  "types": "components/types/index.d.ts",
 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
