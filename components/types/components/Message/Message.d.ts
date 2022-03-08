@@ -1,6 +1,5 @@
 import React from 'react';
 import { ToastOptions } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
 export interface IMessage extends ToastOptions {
     content?: string | React.ReactNode;
     weight?: 'default' | 'primary' | 'bold';
