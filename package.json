@@ -1,6 +1,6 @@
 {
   "name": "fbeta-components",
-  "version": "4.0.10",
+  "version": "4.0.11",
   "description": "React components",
   "main": "components/index.cjs.js",
   "module": "components/index.esm.js",
